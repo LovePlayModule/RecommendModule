@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecommendModule_Example' do
+  pod 'RecommendModule', :path => '../'
+
+  target 'RecommendModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
