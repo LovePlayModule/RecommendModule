@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F8FC8A209CAEE17B57181D /* Pods_RecommendModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E285972F59250E08C7260C /* Pods_RecommendModule_Example.framework */; };
-		139EF490B65F08D027CAF6B9 /* Pods_RecommendModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D689604CB884D61CE74D61A9 /* Pods_RecommendModule_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9017A906907116ECCB571096 /* libPods-RecommendModule_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4A2A768A64A5874EA4D8F /* libPods-RecommendModule_Tests.a */; };
+		CC1312DFA8AA0E037B7B33AC /* libPods-RecommendModule_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B784A231C68AE45F7196C6C6 /* libPods-RecommendModule_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,7 @@
 		02A9A1B91F9F099A4328F870 /* Pods-RecommendModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecommendModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecommendModule_Example/Pods-RecommendModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		058AAFE06D0591DC9C140FDD /* Pods-RecommendModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecommendModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecommendModule_Example/Pods-RecommendModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1369E68EF97E20D10E0BB18C /* Pods-RecommendModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecommendModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecommendModule_Tests/Pods-RecommendModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26E285972F59250E08C7260C /* Pods_RecommendModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecommendModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E71AE287B1E2D789212C65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E71AE287B1E2D789212C65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RecommendModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecommendModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1C982DE1A53D2B1F84F00CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D689604CB884D61CE74D61A9 /* Pods_RecommendModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecommendModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B4A2A768A64A5874EA4D8F /* libPods-RecommendModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecommendModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B784A231C68AE45F7196C6C6 /* libPods-RecommendModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecommendModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C982DE1A53D2B1F84F00CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F1FC25DACF45EE322ED4BF8D /* Pods-RecommendModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecommendModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecommendModule_Tests/Pods-RecommendModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB96CFC34D73239E5D23251A /* RecommendModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RecommendModule.podspec; path = ../RecommendModule.podspec; sourceTree = "<group>"; };
+		FB96CFC34D73239E5D23251A /* RecommendModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RecommendModule.podspec; path = ../RecommendModule.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				04F8FC8A209CAEE17B57181D /* Pods_RecommendModule_Example.framework in Frameworks */,
+				CC1312DFA8AA0E037B7B33AC /* libPods-RecommendModule_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				139EF490B65F08D027CAF6B9 /* Pods_RecommendModule_Tests.framework in Frameworks */,
+				9017A906907116ECCB571096 /* libPods-RecommendModule_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				26E285972F59250E08C7260C /* Pods_RecommendModule_Example.framework */,
-				D689604CB884D61CE74D61A9 /* Pods_RecommendModule_Tests.framework */,
+				B784A231C68AE45F7196C6C6 /* libPods-RecommendModule_Example.a */,
+				A8B4A2A768A64A5874EA4D8F /* libPods-RecommendModule_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -527,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecommendModule/RecommendModule-Prefix.pch";
 				INFOPLIST_FILE = "RecommendModule/RecommendModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecommendModule/RecommendModule-Prefix.pch";
 				INFOPLIST_FILE = "RecommendModule/RecommendModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
