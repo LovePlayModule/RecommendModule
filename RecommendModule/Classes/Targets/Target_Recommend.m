@@ -11,7 +11,7 @@
 
 @implementation Target_Recommend
 
-- (UIViewController *)Action_viewController
+- (UIViewController *)Action_viewController:(NSDictionary *)params
 {
     RecommendViewController *viewController = [[RecommendViewController alloc] init];
     return viewController;

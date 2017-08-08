@@ -22,7 +22,7 @@ PODS:
     - Mediator
   - NewsList_Category (0.1.0):
     - Mediator
-  - RecommendModule (0.1.0):
+  - RecommendModule (0.1.2):
     - Masonry
     - Network
     - NewsDetail_Category
@@ -56,7 +56,7 @@ SPEC CHECKSUMS:
   Network: 4a952f29d06daa87d43ab9111f5b31a1e99655eb
   NewsDetail_Category: 8b18efe9ffc3d07b20a1ca07ac67635c3c379241
   NewsList_Category: 607773fbe099eb6ffe25a60b2f328d0b0ba5e702
-  RecommendModule: 7a9cd6c5468939f9733927d30d25d87a09b3dac8
+  RecommendModule: c63d7bd326186513ba235f2db78be92586ae0c5e
   Tools: c7d2011889d8111e9cc2d40c29ab2183d1835de9
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
