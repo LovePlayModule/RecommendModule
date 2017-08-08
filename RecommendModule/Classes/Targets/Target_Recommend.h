@@ -11,6 +11,6 @@
 
 @interface Target_Recommend : NSObject
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)Action_viewController;
 
 @end
